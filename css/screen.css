@@ -4,86 +4,19 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* import base css */
-/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
 /* line 3, ../sass/components/_menu-view.scss */
 body.menu-in #menu {
-  -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 /* line 8, ../sass/components/_menu-view.scss */
 body.menu-in #main-container {
-  -webkit-transform: translate3d(150px, 0, 0);
   -moz-transform: translate3d(150px, 0, 0);
   -ms-transform: translate3d(150px, 0, 0);
-  -o-transform: translate3d(150px, 0, 0);
+  -webkit-transform: translate3d(150px, 0, 0);
   transform: translate3d(150px, 0, 0);
 }
 
@@ -102,15 +35,13 @@ body.menu-in #main-container {
   -webkit-mask-image: url(../assets/images/menu-mask.png);
   -webkit-mask-repeat: repeat-y;
   -webkit-mask-position: right center;
-  -webkit-transform-origin: right center;
   -moz-transform-origin: right center;
   -ms-transform-origin: right center;
-  -o-transform-origin: right center;
+  -webkit-transform-origin: right center;
   transform-origin: right center;
-  -webkit-transform: translate3d(-150px, 0, 0) rotateY(-45deg);
   -moz-transform: translate3d(-150px, 0, 0) rotateY(-45deg);
   -ms-transform: translate3d(-150px, 0, 0) rotateY(-45deg);
-  -o-transform: translate3d(-150px, 0, 0) rotateY(-45deg);
+  -webkit-transform: translate3d(-150px, 0, 0) rotateY(-45deg);
   transform: translate3d(-150px, 0, 0) rotateY(-45deg);
 }
 @media screen and (max-height: 700px) {
@@ -137,9 +68,9 @@ body.menu-in #main-container {
 
 /* line 46, ../sass/components/_menu-view.scss */
 #main-container, #menu {
-  -webkit-transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease-out;
   -moz-transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease-out;
   -o-transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease-out;
+  -webkit-transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease-out;
   transition: -webkit-transform 0.4s ease-out, opacity 0.4s ease-out;
 }
 
@@ -153,14 +84,13 @@ body.menu-in #main-container {
   height: 100px;
   color: white;
   -webkit-mask: url(../assets/images/textures/nav_item_bg.png);
-  -webkit-transform: rotate(-45deg) translate(-40%, 0px);
   -moz-transform: rotate(-45deg) translate(-40%, 0px);
   -ms-transform: rotate(-45deg) translate(-40%, 0px);
-  -o-transform: rotate(-45deg) translate(-40%, 0px);
+  -webkit-transform: rotate(-45deg) translate(-40%, 0px);
   transform: rotate(-45deg) translate(-40%, 0px);
-  -webkit-transition: color 0.4s, background 0.4s;
   -moz-transition: color 0.4s, background 0.4s;
   -o-transition: color 0.4s, background 0.4s;
+  -webkit-transition: color 0.4s, background 0.4s;
   transition: color 0.4s, background 0.4s;
 }
 @media screen and (max-height: 600px) {
@@ -173,10 +103,9 @@ body.menu-in #main-container {
 @media screen and (max-height: 450px) {
   /* line 50, ../sass/components/_menu-view.scss */
   .menu-item {
-    -webkit-transform: translate(-30%, 0px);
     -moz-transform: translate(-30%, 0px);
     -ms-transform: translate(-30%, 0px);
-    -o-transform: translate(-30%, 0px);
+    -webkit-transform: translate(-30%, 0px);
     transform: translate(-30%, 0px);
     margin: 0;
   }
@@ -258,12 +187,13 @@ body.menu-in #main-container {
   z-index: 1;
   -webkit-mask: url(../assets/images/textures/nav_btn.png) no-repeat;
   -webkit-mask-size: 100% 100%;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
   user-select: none;
-  -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -288,9 +218,9 @@ body.menu-in #main-container {
   z-index: 2;
   opacity: 0;
   -webkit-mask-box-image: url(../assets/images/textures/nav_extended.png) 3 1 3 1 stretch;
-  -webkit-transition: width 0.5s, opacity 0.2s, color 0.2s;
   -moz-transition: width 0.5s, opacity 0.2s, color 0.2s;
   -o-transition: width 0.5s, opacity 0.2s, color 0.2s;
+  -webkit-transition: width 0.5s, opacity 0.2s, color 0.2s;
   transition: width 0.5s, opacity 0.2s, color 0.2s;
 }
 /* line 182, ../sass/components/_menu-view.scss */
@@ -316,9 +246,9 @@ body.menu-in #main-container {
   cursor: pointer;
   -webkit-mask: url(../assets/images/textures/nav_item_bg.png);
   -webkit-clip-path: polygon(94.251px 22.122px, 82.255px 18.092px, 73.919px 27.612px, 61.289px 26.824px, 55.701px 38.177px, 43.298px 40.684px, 40.839px 53.096px, 29.506px 58.728px, 30.342px 71.354px, 20.854px 79.728px, 24.93px 91.707px, 17.932px 102.25px, 24.97px 112.766px, 20.938px 124.763px, 30.459px 133.098px, 29.672px 145.729px, 41.023px 151.317px, 43.53px 163.72px, 55.943px 166.181px, 61.576px 177.513px, 74.2px 176.676px, 82.575px 186.164px, 94.552px 182.088px, 105.096px 189.086px, 115.612px 182.049px, 127.609px 186.079px, 135.944px 176.56px, 148.574px 177.347px, 154.162px 165.994px, 166.567px 163.486px, 169.026px 151.075px, 180.358px 145.442px, 179.522px 132.816px, 189.01px 124.443px, 184.934px 112.464px, 191.932px 101.92px, 184.893px 91.404px, 188.924px 79.409px, 179.405px 71.074px, 180.193px 58.442px, 168.84px 52.855px, 166.333px 40.45px, 153.92px 37.99px, 148.288px 26.659px, 135.665px 27.496px, 127.29px 18.007px, 115.31px 22.082px, 104.768px 15.086px);
-  -webkit-transition: color 0.4s, background-color 0.4s;
   -moz-transition: color 0.4s, background-color 0.4s;
   -o-transition: color 0.4s, background-color 0.4s;
+  -webkit-transition: color 0.4s, background-color 0.4s;
   transition: color 0.4s, background-color 0.4s;
 }
 @media screen and (max-width: 800px) {
@@ -488,38 +418,35 @@ body.menu-in #main-container {
   background-image: url("../assets/images/textures/go_to_bullet.png");
   -webkit-mask: url("../assets/images/vector/bubble.svg");
   opacity: 0.7;
-  -webkit-transition: -webkit-transform 1s, opacity 0.2s;
   -moz-transition: -webkit-transform 1s, opacity 0.2s;
   -o-transition: -webkit-transform 1s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 1s, opacity 0.2s;
   transition: -webkit-transform 1s, opacity 0.2s;
 }
 
 /* line 73, ../sass/components/_section-goto.scss */
 #section-1-img-left {
   left: 0;
-  -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 @media screen and (max-width: 1200px) {
   /* line 73, ../sass/components/_section-goto.scss */
   #section-1-img-left {
-    -webkit-transform: translateX(-50%) scale(0.8);
     -moz-transform: translateX(-50%) scale(0.8);
     -ms-transform: translateX(-50%) scale(0.8);
-    -o-transform: translateX(-50%) scale(0.8);
+    -webkit-transform: translateX(-50%) scale(0.8);
     transform: translateX(-50%) scale(0.8);
   }
 }
 @media screen and (max-width: 700px) {
   /* line 73, ../sass/components/_section-goto.scss */
   #section-1-img-left {
-    -webkit-transform: translateX(-50%) scale(0.5);
     -moz-transform: translateX(-50%) scale(0.5);
     -ms-transform: translateX(-50%) scale(0.5);
-    -o-transform: translateX(-50%) scale(0.5);
+    -webkit-transform: translateX(-50%) scale(0.5);
     transform: translateX(-50%) scale(0.5);
   }
 }
@@ -527,29 +454,26 @@ body.menu-in #main-container {
 /* line 86, ../sass/components/_section-goto.scss */
 #section-1-img-right {
   right: 0;
-  -webkit-transform: translateX(50%);
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
-  -o-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
   transform: translateX(50%);
 }
 @media screen and (max-width: 1200px) {
   /* line 86, ../sass/components/_section-goto.scss */
   #section-1-img-right {
-    -webkit-transform: translateX(50%) scale(0.8);
     -moz-transform: translateX(50%) scale(0.8);
     -ms-transform: translateX(50%) scale(0.8);
-    -o-transform: translateX(50%) scale(0.8);
+    -webkit-transform: translateX(50%) scale(0.8);
     transform: translateX(50%) scale(0.8);
   }
 }
 @media screen and (max-width: 700px) {
   /* line 86, ../sass/components/_section-goto.scss */
   #section-1-img-right {
-    -webkit-transform: translateX(50%) scale(0.5);
     -moz-transform: translateX(50%) scale(0.5);
     -ms-transform: translateX(50%) scale(0.5);
-    -o-transform: translateX(50%) scale(0.5);
+    -webkit-transform: translateX(50%) scale(0.5);
     transform: translateX(50%) scale(0.5);
   }
 }
@@ -727,9 +651,9 @@ body.menu-in #main-container {
   text-decoration: none;
   border-radius: .2em;
   text-shadow: 2px 2px 0px #640000;
-  -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 @media screen and (max-width: 900px) {
@@ -764,10 +688,9 @@ body.menu-in #main-container {
 @media screen and (max-width: 800px) {
   /* line 94, ../sass/components/_section-american.scss */
   #section-2-img-bottom {
-    -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
     -ms-transform: scale(0.75);
-    -o-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
 }
@@ -840,10 +763,9 @@ body.menu-in #main-container {
   font-family: sofia;
   font-size: 7em;
   z-index: 3;
-  -webkit-transform: rotate(-10deg);
   -moz-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
 /* line 35, ../sass/components/_section-frosting.scss */
@@ -865,10 +787,9 @@ body.menu-in #main-container {
   right: 70vw;
   width: 20em;
   z-index: 0;
-  -webkit-transform-origin: center bottom;
   -moz-transform-origin: center bottom;
   -ms-transform-origin: center bottom;
-  -o-transform-origin: center bottom;
+  -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
 
@@ -879,10 +800,9 @@ body.menu-in #main-container {
   left: 55vw;
   width: 25em;
   z-index: 0;
-  -webkit-transform-origin: center bottom;
   -moz-transform-origin: center bottom;
   -ms-transform-origin: center bottom;
-  -o-transform-origin: center bottom;
+  -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
 
@@ -893,10 +813,9 @@ body.menu-in #main-container {
   left: 0;
   width: 14em;
   z-index: 0;
-  -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -ms-transform-origin: left center;
-  -o-transform-origin: left center;
+  -webkit-transform-origin: left center;
   transform-origin: left center;
 }
 
@@ -907,10 +826,9 @@ body.menu-in #main-container {
   right: 0;
   width: 15em;
   z-index: 0;
-  -webkit-transform-origin: right bottom;
   -moz-transform-origin: right bottom;
   -ms-transform-origin: right bottom;
-  -o-transform-origin: right bottom;
+  -webkit-transform-origin: right bottom;
   transform-origin: right bottom;
 }
 
@@ -921,10 +839,9 @@ body.menu-in #main-container {
   right: 0;
   height: 12em;
   z-index: 0;
-  -webkit-transform-origin: right top;
   -moz-transform-origin: right top;
   -ms-transform-origin: right top;
-  -o-transform-origin: right top;
+  -webkit-transform-origin: right top;
   transform-origin: right top;
 }
 
@@ -1015,9 +932,9 @@ body.menu-in #main-container {
   background-image: url("../assets/images/textures/White.png");
   -webkit-mask: url("../assets/images/vector/bubble.svg");
   opacity: 0.7;
-  -webkit-transition: -webkit-transform 1s, opacity 0.2s;
   -moz-transition: -webkit-transform 1s, opacity 0.2s;
   -o-transition: -webkit-transform 1s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 1s, opacity 0.2s;
   transition: -webkit-transform 1s, opacity 0.2s;
 }
 
@@ -1036,20 +953,18 @@ body.menu-in #main-container {
 @media screen and (max-height: 700px) {
   /* line 179, ../sass/components/_section-frosting.scss */
   #alton-cupacakes-bottom {
-    -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
     -ms-transform: scale(0.75);
-    -o-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
 }
 @media screen and (max-height: 600px) {
   /* line 179, ../sass/components/_section-frosting.scss */
   #alton-cupacakes-bottom {
-    -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
     transform: scale(0.5);
   }
 }
@@ -1236,9 +1151,9 @@ body.menu-in #main-container {
   width: 35%;
   background: rgba(255, 255, 255, 0.5);
   -webkit-clip-path: ellipse(50% 50% at 50% 50%);
-  -webkit-transition: -webkit-clip-path 1s;
   -moz-transition: -webkit-clip-path 1s;
   -o-transition: -webkit-clip-path 1s;
+  -webkit-transition: -webkit-clip-path 1s;
   transition: -webkit-clip-path 1s;
 }
 /* line 364, ../sass/components/_section-frosting.scss */
@@ -1289,9 +1204,9 @@ body.menu-in #main-container {
   font-size: 2rem;
   text-decoration: none;
   color: #004e71;
-  -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
   -webkit-mask: url(../assets/images/textures/video_btn_bg.png);
 }
@@ -1304,9 +1219,9 @@ body.menu-in #main-container {
   padding: 1rem 0 1rem 4.5rem;
   background: white;
   -webkit-mask: url(../assets/images/vector/video_btn_mask.svg);
-  -webkit-transition: background-color 0.5s ease-in-out;
   -moz-transition: background-color 0.5s ease-in-out;
   -o-transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
 }
 /* line 21, ../sass/components/_video-btn.scss */
@@ -1314,33 +1229,33 @@ body.menu-in #main-container {
   position: absolute;
   top: -1px;
   left: -1px;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
   -moz-transition: -webkit-transform 0.5s ease-in-out;
   -o-transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
   transition: -webkit-transform 0.5s ease-in-out;
 }
 /* line 28, ../sass/components/_video-btn.scss */
 .video-btn .video-color {
   fill: #004e71;
-  -webkit-transition: fill 2s;
   -moz-transition: fill 2s;
   -o-transition: fill 2s;
+  -webkit-transition: fill 2s;
   transition: fill 2s;
 }
 /* line 33, ../sass/components/_video-btn.scss */
 .video-btn .video-white {
   fill: white;
-  -webkit-transition: fill 2s;
   -moz-transition: fill 2s;
   -o-transition: fill 2s;
+  -webkit-transition: fill 2s;
   transition: fill 2s;
 }
 /* line 38, ../sass/components/_video-btn.scss */
 .video-btn .video-stroke {
   stroke: white;
-  -webkit-transition: stroke 2s;
   -moz-transition: stroke 2s;
   -o-transition: stroke 2s;
+  -webkit-transition: stroke 2s;
   transition: stroke 2s;
 }
 /* line 43, ../sass/components/_video-btn.scss */
@@ -1380,9 +1295,9 @@ body.menu-in #main-container {
   background: url("../assets/images/textures/recipe_btn_bg.jpg"), #fefefe;
   background-blend-mode: multiply;
   border-radius: 3px;
-  -webkit-transition: color 0.2s, background-color 1s;
   -moz-transition: color 0.2s, background-color 1s;
   -o-transition: color 0.2s, background-color 1s;
+  -webkit-transition: color 0.2s, background-color 1s;
   transition: color 0.2s, background-color 1s;
 }
 
@@ -1397,28 +1312,25 @@ body.menu-in #main-container {
   background: #ededed;
   z-index: 2;
   opacity: 0;
-  -webkit-transform: rotateX(90deg);
   -moz-transform: rotateX(90deg);
   -ms-transform: rotateX(90deg);
-  -o-transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
   transform: rotateX(90deg);
-  -webkit-transform-origin: center bottom;
   -moz-transform-origin: center bottom;
   -ms-transform-origin: center bottom;
-  -o-transform-origin: center bottom;
+  -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
-  -webkit-transition: -webkit-transform 0.6s linear, opacity 0.6s linear;
   -moz-transition: -webkit-transform 0.6s linear, opacity 0.6s linear;
   -o-transition: -webkit-transform 0.6s linear, opacity 0.6s linear;
+  -webkit-transition: -webkit-transform 0.6s linear, opacity 0.6s linear;
   transition: -webkit-transform 0.6s linear, opacity 0.6s linear;
 }
 /* line 15, ../sass/components/_recipe-view.scss */
 #recipe.in {
   opacity: 1;
-  -webkit-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
   -ms-transform: rotateX(0deg);
-  -o-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
 /* line 20, ../sass/components/_recipe-view.scss */
@@ -1622,14 +1534,13 @@ body.menu-in #main-container {
   background: #c8253f;
   border-radius: .8em;
   opacity: 0;
-  -webkit-transform-origin: top center;
   -moz-transform-origin: top center;
   -ms-transform-origin: top center;
-  -o-transform-origin: top center;
+  -webkit-transform-origin: top center;
   transform-origin: top center;
-  -webkit-transition: opacity 0.1s;
   -moz-transition: opacity 0.1s;
   -o-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
 }
 /* line 227, ../sass/components/_recipe-view.scss */
@@ -1724,34 +1635,31 @@ body.menu-in #main-container {
   -webkit-flex-direction: column;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-  -webkit-transition: opacity 0.2s, -webkit-transform 0.5s;
   -moz-transition: opacity 0.2s, -webkit-transform 0.5s;
   -o-transition: opacity 0.2s, -webkit-transform 0.5s;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.5s;
   transition: opacity 0.2s, -webkit-transform 0.5s;
 }
 /* line 50, ../sass/components/_recipe-slide.scss */
 .recipe-slide.right {
-  -webkit-transform: translate3d(1000px, 0, 0);
   -moz-transform: translate3d(1000px, 0, 0);
   -ms-transform: translate3d(1000px, 0, 0);
-  -o-transform: translate3d(1000px, 0, 0);
+  -webkit-transform: translate3d(1000px, 0, 0);
   transform: translate3d(1000px, 0, 0);
 }
 /* line 54, ../sass/components/_recipe-slide.scss */
 .recipe-slide.left {
-  -webkit-transform: translate3d(-1000px, 0, 0);
   -moz-transform: translate3d(-1000px, 0, 0);
   -ms-transform: translate3d(-1000px, 0, 0);
-  -o-transform: translate3d(-1000px, 0, 0);
+  -webkit-transform: translate3d(-1000px, 0, 0);
   transform: translate3d(-1000px, 0, 0);
 }
 /* line 58, ../sass/components/_recipe-slide.scss */
 .recipe-slide.in {
   opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -1766,10 +1674,9 @@ body.menu-in #main-container {
 @media screen and (max-height: 400px) {
   /* line 64, ../sass/components/_recipe-slide.scss */
   .recipe-slide-card {
-    -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
     transform: scale(0.6);
   }
 }
@@ -1822,14 +1729,13 @@ body.menu-in #main-container {
   background-size: contain;
   cursor: pointer;
   -webkit-user-select: none;
-  -webkit-transform: scale(2);
   -moz-transform: scale(2);
   -ms-transform: scale(2);
-  -o-transform: scale(2);
+  -webkit-transform: scale(2);
   transform: scale(2);
-  -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
 /* line 122, ../sass/components/_recipe-slide.scss */
@@ -1861,31 +1767,29 @@ body.menu-in #main-container {
   z-index: 100;
   cursor: pointer;
   -webkit-mask: url(../assets/images/textures/nav_btn.png) repeat-y;
-  -webkit-transform: translateX(200px);
   -moz-transform: translateX(200px);
   -ms-transform: translateX(200px);
-  -o-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
   transform: translateX(200px);
-  -webkit-transition: opacity 0.2s;
-  -webkit-transition-delay: 0.8s;
   -moz-transition: opacity 0.2s 0.8s;
   -o-transition: opacity 0.2s 0.8s;
+  -webkit-transition: opacity 0.2s;
+  -webkit-transition-delay: 0.8s;
   transition: opacity 0.2s 0.8s;
 }
 /* line 13, ../sass/components/_close-btn.scss */
 #close-btn .close-fill, #close-btn .close-stroke {
-  -webkit-transition: fill 0.2s;
   -moz-transition: fill 0.2s;
   -o-transition: fill 0.2s;
+  -webkit-transition: fill 0.2s;
   transition: fill 0.2s;
 }
 /* line 17, ../sass/components/_close-btn.scss */
 #close-btn.in {
   opacity: 1;
-  -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
   transform: translateX(0px);
 }
 
@@ -1895,18 +1799,16 @@ body.menu-in #main-container {
   bottom: 40px;
   right: 0;
   z-index: 2;
-  -webkit-transform: translateX(200px);
   -moz-transform: translateX(200px);
   -ms-transform: translateX(200px);
-  -o-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
   transform: translateX(200px);
 }
 /* line 8, ../sass/components/_timer-view.scss */
 #timer.in {
-  -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
   transform: translateX(0px);
 }
 
@@ -1923,9 +1825,9 @@ body.menu-in #main-container {
   background-size: 50%;
   z-index: 1;
   cursor: pointer;
-  -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   -webkit-clip-path: polygon(100% 0%, 20% 0%, 0px 50%, 20% 100%, 100% 100%);
   -webkit-mask: url(../assets/images/textures/red_texture.png);
@@ -1943,14 +1845,13 @@ body.menu-in #main-container {
   letter-spacing: .1em;
   color: #c8253f;
   z-index: 0;
-  -webkit-transform-origin: right center;
   -moz-transform-origin: right center;
   -ms-transform-origin: right center;
-  -o-transform-origin: right center;
+  -webkit-transform-origin: right center;
   transform-origin: right center;
-  -webkit-transition: -webkit-clip-path 1s;
   -moz-transition: -webkit-clip-path 1s;
   -o-transition: -webkit-clip-path 1s;
+  -webkit-transition: -webkit-clip-path 1s;
   transition: -webkit-clip-path 1s;
   -webkit-clip-path: polygon(100% 0%, 100% 0%, 95% 50%, 100% 100%, 100% 100%);
 }
@@ -1987,9 +1888,9 @@ body.menu-in #main-container {
   background-size: 40%;
   cursor: pointer;
   z-index: 2;
-  -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
   -webkit-clip-path: polygon(100% 0%, 20% 0%, 0% 50%, 20% 100%, 100% 100%, 80% 50%);
   -webkit-mask: url(../assets/images/textures/red_texture.png);
@@ -2027,23 +1928,21 @@ body.menu-in #main-container {
   cursor: pointer;
   border-radius: 0 1em 1em 0;
   -webkit-mask: url(../assets/images/textures/red_texture.png);
-  -webkit-transform: translateX(-100px);
   -moz-transform: translateX(-100px);
   -ms-transform: translateX(-100px);
-  -o-transform: translateX(-100px);
+  -webkit-transform: translateX(-100px);
   transform: translateX(-100px);
-  -webkit-transition: -webkit-transform 1s, background-color 0.2s;
   -moz-transition: -webkit-transform 1s, background-color 0.2s;
   -o-transition: -webkit-transform 1s, background-color 0.2s;
+  -webkit-transition: -webkit-transform 1s, background-color 0.2s;
   transition: -webkit-transform 1s, background-color 0.2s;
 }
 /* line 29, ../sass/components/_speech-btn.scss */
 #speech-btn.in {
   display: block;
-  -webkit-transform: translateX(0px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
   transform: translateX(0px);
 }
 /* line 34, ../sass/components/_speech-btn.scss */
@@ -2072,9 +1971,9 @@ body.menu-in #main-container {
   opacity: 0;
   pointer-events: none;
   -webkit-mask: url(../assets/images/textures/red_texture.png);
-  -webkit-transition: opacity 0.2s linear, background-color 0.2s;
   -moz-transition: opacity 0.2s linear, background-color 0.2s;
   -o-transition: opacity 0.2s linear, background-color 0.2s;
+  -webkit-transition: opacity 0.2s linear, background-color 0.2s;
   transition: opacity 0.2s linear, background-color 0.2s;
 }
 /* line 61, ../sass/components/_speech-btn.scss */
@@ -2115,9 +2014,9 @@ body.menu-in #main-container {
   border-bottom: 5px double white;
   text-align: center;
   cursor: pointer;
-  -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 @media screen and (max-width: 650px) {
@@ -2240,9 +2139,9 @@ body.menu-in #main-container {
   color: #004f73;
   text-decoration: none;
   border-bottom: 2px dotted;
-  -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 /* line 137, ../sass/components/_toggle-gallery.scss */
@@ -2333,10 +2232,8 @@ body {
   font-size: 1.5rem;
   overflow: hidden;
   background: #222;
-  -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
-  -ms-perspective: 1000px;
-  -o-perspective: 1000px;
+  -webkit-perspective: 1000px;
   perspective: 1000px;
 }
 
@@ -2413,10 +2310,9 @@ h3 {
   width: 100vw;
   margin-top: 5rem;
   z-index: 3;
-  -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
   transform: scale(0.8);
 }
 @media screen and (max-width: 800px) {
@@ -2425,10 +2321,9 @@ h3 {
     position: absolute;
     bottom: 30px;
     margin-top: 0rem;
-    -webkit-transform: none;
     -moz-transform: none;
     -ms-transform: none;
-    -o-transform: none;
+    -webkit-transform: none;
     transform: none;
     -webkit-mask: url(../assets/images/textures/nav_item_bg.png);
   }
@@ -2500,10 +2395,9 @@ footer a {
 @media screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: landscape) {
   /* line 7, ../sass/media/_ipad_landscape.scss */
   #navigation {
-    -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
-    -o-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
     transform: scale(0.7);
   }
 
@@ -2521,10 +2415,9 @@ footer a {
   /* line 22, ../sass/media/_ipad_landscape.scss */
   #alton-cupacakes-bottom {
     display: block;
-    -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
     -ms-transform: scale(0.75);
-    -o-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
     transform: scale(0.75);
   }
 
@@ -2547,10 +2440,9 @@ footer a {
 
   /* line 11, ../sass/media/_ipad_portrait.scss */
   #navigation {
-    -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
     transform: scale(0.8);
   }
 
@@ -2611,26 +2503,23 @@ footer a {
 }
 /* line 26, ../sass/device/_ipad.scss */
 .ipad #menu {
-  -webkit-transform: translate3d(-150px, 0, 0);
   -moz-transform: translate3d(-150px, 0, 0);
   -ms-transform: translate3d(-150px, 0, 0);
-  -o-transform: translate3d(-150px, 0, 0);
+  -webkit-transform: translate3d(-150px, 0, 0);
   transform: translate3d(-150px, 0, 0);
 }
 /* line 30, ../sass/device/_ipad.scss */
 .ipad #recipe {
-  -webkit-transform: translate3d(0, 2000px, 0);
   -moz-transform: translate3d(0, 2000px, 0);
   -ms-transform: translate3d(0, 2000px, 0);
-  -o-transform: translate3d(0, 2000px, 0);
+  -webkit-transform: translate3d(0, 2000px, 0);
   transform: translate3d(0, 2000px, 0);
 }
 /* line 33, ../sass/device/_ipad.scss */
 .ipad #recipe.in {
-  -webkit-transform: translate3d(0, 0px, 0);
   -moz-transform: translate3d(0, 0px, 0);
   -ms-transform: translate3d(0, 0px, 0);
-  -o-transform: translate3d(0, 0px, 0);
+  -webkit-transform: translate3d(0, 0px, 0);
   transform: translate3d(0, 0px, 0);
 }
 /* line 38, ../sass/device/_ipad.scss */
@@ -2712,19 +2601,17 @@ footer a {
 }
 /* line 69, ../sass/device/_touch.scss */
 .touch .alton-item:active:before {
-  -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   opacity: 1;
 }
 /* line 76, ../sass/device/_touch.scss */
 .touch .go-to-item:active:before {
-  -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   opacity: 1;
 }
@@ -2796,19 +2683,17 @@ footer a {
 }
 /* line 74, ../sass/device/_no_touch.scss */
 .no-touch .alton-item:hover:before {
-  -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   opacity: 1;
 }
 /* line 81, ../sass/device/_no_touch.scss */
 .no-touch .go-to-item:hover:before {
-  -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   opacity: 1;
 }
